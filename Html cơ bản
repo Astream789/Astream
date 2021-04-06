@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Html cơ bản </title>
+        <style>
+            h1{color:cyan; }
+            p {color:dodgerblue}
+        </style>
+         <a href="https://code.visualstudio.com/docs/?dv=win">Đạt lê</a> 
+        <br/>
+        <img src= 'https://code.org/shared/images/social-media/codeorg2020_social.png' width="50%">
+        <body>
+            <h1>xin chào các bạn </h1>
+            <p>
+                Khóa học Nền Tảng Lập Trình được thiết kế để kiến tạo những căn bản trong tư duy lập trình và giải quyết vấn đề, 
+                tạo nền tảng vững chắc khi tiếp cận các kỹ năng lập trình nâng cao. Ngoài ra, người học còn được tiếp xúc với các công cụ đặc thù để gia tăng hiệu suất lập trình, 
+                cũng như tiếp cận phương pháp học tập và phát triển bản thân một cách khoa học, hiệu quả và bền vững.
+
+            </p>
+            <p>
+                Khóa học giúp học viên thành thạo được các kỹ thuật lập trình cơ bản với ngôn ngữ ​JavaScript​,  xây dựng được các ứng dụng cần 
+                tính toán sử dụng các kiến thức lập trình cơ bản, tạo nền tảng vững chắc khi chuyển sang học các kỹ thuật lập trình nâng cao hơn với các loại ngôn ngữ lập 
+                trình khác nhau như Java, C#, PHP v.v..
+
+            </p>
+        </body>
+    </head>
+</html>
