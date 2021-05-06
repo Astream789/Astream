@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Giá hoa quả</title>
+</head>
+<body>
+
+    <h1>Kiểm tra giá hoa quả</h1> <br/>
+
+<select id="fruits">
+    
+    <option value='1' >Ổi</option>
+    <option value='2'>Dưa Hấu</option>
+    <option value='3'>Táo</option>
+    <option value='4'>xoài</option>
+    <option value='5'>Cam</option>
+    <option value='6'>chôm chôm</option>
+    <option value='7'>Măng cụt</option>
+
+</select> 
+<button onclick="checkprice()">xem giá</button>
+<p id='price'></p>
+<script>
+    function checkprice() {
+        var price = '';
+        var value = document.getElementById('fruits').value;
+       switch (value) {
+        case '1': 
+        price = '20000đ/kg' 
+        break;
+        case '2': 
+        price = '20000đ/kg'
+        break;
+        case '3': 
+        price = '30000đ/kg'
+        break;
+        case '4': 
+        price = '30000đ/kg'
+        break;
+        case '5': 
+        price = '40000đ'
+        break;
+        case '6':
+        price = '40000đ/kg'
+        break;
+        case '7':
+        price = '50000đ/kg'
+          break;
+       }
+       document.getElementById('price').innerText = "giá " + price;       
+    }
+</script>
+    
+</body>
+</html>
